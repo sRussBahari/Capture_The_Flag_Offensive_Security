@@ -50,4 +50,8 @@ II) Linux Server vulnerabilities
 ![Metasploit](./Metasploit_4.png)
 ![Metasploit](./Metasploit_5.png)
 
+6) -Finally the last flag of the linux server, in order to get the flag we had to review information from a tool called "ICANN lookup" with the full url of the company and it mentioned that the user was alice so we simply used the command ssh alice@192.168.13.14 with the password alice to get access to the machine. After that, in order to escalate our privilege, the hint provided the information CVE-2019-14287 where the vulnerability there was to use the following command: sudo -u#-1 /bin/bash in order to escalate our privilege to root. After that, we simply cd into root and got the flag
+![ICANN_Lookup](./ICAN_Lookup.png)
+![Metasploit](./Metasploit_6.png)
+
 III) Windows Server vulnerabilities

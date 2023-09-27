@@ -43,7 +43,11 @@ II) Linux Server vulnerabilities
 ![Metasploit](./Metasploit_1.png)
 ![Metasploit](./Metasploit_2.png)
 
+4) -Nessus indicated to use a Struts exploit for the next IP address targeted, therefore, I tried a couple of them and found out that it was the multi/http/struts2_content_type_ognl exploit, it opened a meterpreter shell and the flag was within the root folder.
+![Metasploit](./Metasploit_3.png)
 
-
+5) -For the next flag, after running an aggressive nmap scan, it is mentioned that it uses Drupal CVE 2019-6340. Therefore, after trying a couple of Drupal exploits, the one that was working was unix/webapp/drupal_restws_unserialize. Once the meterpreter session got opened, I simply used a getuid command to get the username of the user as the username was the actual flag.
+![Metasploit](./Metasploit_4.png)
+![Metasploit](./Metasploit_5.png)
 
 III) Windows Server vulnerabilities

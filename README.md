@@ -74,3 +74,9 @@ III) Windows Server vulnerabilities
 5) -Flag 6 was located in the same machine, I found an NTLM hash while loading kiwi and doing lsa_dump_sam, I then cracked the hash using john and found flag 6.
 ![Metasploit](./Metasploit_10.png)
 ![Metasploit](./Metasploit_11.png)
+
+6) -For the final flag of the windows server, I also use “kiwi” and the command kiwi_cmd lsadump::cache to get another hash of ADMBob. I then cracked the hash and use another exploit with metasploit “windows/smb/psexec”. After that I enter a meterpreter session and drop to a shell and do “net users” and the flag was there.
+![Metasploit](./Metasploit_12.png)
+![Metasploit](./Metasploit_13.png)
+![Metasploit](./Metasploit_14.png)
+![Metasploit](./Metasploit_15.png)

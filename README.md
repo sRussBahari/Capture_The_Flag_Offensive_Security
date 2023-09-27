@@ -18,11 +18,12 @@ Participated in a rigorous Capture the Flag (CTF) exercise, utilizing advanced o
 ## Screenshots
 1) Web Application vulnerabilities
 XSS payload
-[XSS_payload](./XSS_payload.png)
+
+![XSS_payload](./XSS_payload.png)
 
 php script uploaded to get the flag 
-[Php_Script1](./Php_script_1.png)
-[Php_Script2](./Php_script_2.png)
+![Php_Script1](./Php_script_1.png)
+![Php_Script2](./Php_script_2.png)
 3) Linux Server vulnerabilities
 
 4) Windows Server vulnerabilities

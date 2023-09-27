@@ -55,3 +55,7 @@ II) Linux Server vulnerabilities
 ![Metasploit](./Metasploit_6.png)
 
 III) Windows Server vulnerabilities
+
+1) - The first flag for the Windows server is within a GitHub repositories belonging to totalrekall. Within the repository, there was a file with a username followed by a hash which I cracked using John the Ripper
+![GitHub_Repo](./Git_Hub_Repo.png)
+![John_The_Ripper](./John_The_Ripper.png)

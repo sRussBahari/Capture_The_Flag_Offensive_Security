@@ -32,6 +32,18 @@ I) Web Application vulnerabilities
 
 II) Linux Server vulnerabilities
 
-1) -
+1) -SSL certificate, use of "crt.sh" and look up for totalrekall.xyz for the flag.
+![SSL](./Certificate_flag.png)
+
+2) -Nmap agressive scan on every IP address on the domain totalrekall.xyz with an IP address of 192.168.13.0/24 as the flag is the IP address running the Drupal service. The flag was the following IP address 192.168.13.13
+![Nmap_Aggressive_scan](./Nmap_Scan_1.png)
+![Nmap_Aggressive_scan](./Nmap_Scan_2.png)
+
+3) -Use of Metasploit to find an exploit on the Linux server and navigate to the root folder within the shell to get the flag.
+![Metasploit](./Metasploit_1.png)
+![Metasploit](./Metasploit_2.png)
+
+
+
 
 III) Windows Server vulnerabilities

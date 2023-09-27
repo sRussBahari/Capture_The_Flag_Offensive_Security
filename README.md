@@ -67,3 +67,10 @@ III) Windows Server vulnerabilities
 3) -As for the following flag, the indication mentioned to find a machine that is running SLMail and it was the one with the IP address 172.22.117.20. After that, we opened metasploit and searched for SLMail as there was only one exploit named exploit/windows/pop3/seattlelab_pass. After entering the meterpreter session, we only had to use “ls” and cat the flag4.txt
 ![Metasploit](./Metasploit_7.png)
 ![Metasploit](./Metasploit_8.png)
+
+4) -For flag 5, after we got access to the machine, we were able to check the schedule task where we found flag 5.
+![Metasploit](./Metasploit_9.png)
+
+5) -Flag 6 was located in the same machine, I found an NTLM hash while loading kiwi and doing lsa_dump_sam, I then cracked the hash using john and found flag 6.
+![Metasploit](./Metasploit_10.png)
+![Metasploit](./Metasploit_11.png)

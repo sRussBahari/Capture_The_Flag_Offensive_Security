@@ -56,6 +56,14 @@ II) Linux Server vulnerabilities
 
 III) Windows Server vulnerabilities
 
-1) - The first flag for the Windows server is within a GitHub repositories belonging to totalrekall. Within the repository, there was a file with a username followed by a hash which I cracked using John the Ripper
+1) The first flag for the Windows server is within a GitHub repositories belonging to totalrekall. Within the repository, there was a file with a username followed by a hash which I cracked using John the Ripper
 ![GitHub_Repo](./Git_Hub_Repo.png)
 ![John_The_Ripper](./John_The_Ripper.png)
+
+2) -For the next flag, after running an aggressive scan, the IP address corresponding to the ftp was 172.22.117.20. After that, we ran ftp 172.22.117.20 and connected with anonymous credentials. The flag was there, we simply used a get flag3.txt command to transfer the file within our kali linux terminal and open it.
+![FTP](./FTP_connection.png)
+![FTP](./FTP_connection_2.png)
+
+3) -As for the following flag, the indication mentioned to find a machine that is running SLMail and it was the one with the IP address 172.22.117.20. After that, we opened metasploit and searched for SLMail as there was only one exploit named exploit/windows/pop3/seattlelab_pass. After entering the meterpreter session, we only had to use “ls” and cat the flag4.txt
+![Metasploit](./Metasploit_7.png)
+![Metasploit](./Metasploit_8.png)
